@@ -10,7 +10,7 @@ import { PlanNotice } from '@/components/PlanNotice';
 // src/i18n beobachtet das Attribut und LocaleGate remountet den Baum.
 import { t, appgroupLabel } from '@/i18n';
 
-const APP_ID = '6af2eb3d44ab3ecb7df60a7e';
+const APP_ID = '6af2eb3dc84b416d484dec79';
 const APPGROUP_ID = '6af2eb3c62187e9b52dab19a';
 
 const IS_EMBED = new URLSearchParams(window.location.search).has('embed') || window.navigator.userAgent.startsWith('LivingAppsMobile');
